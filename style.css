@@ -1,0 +1,44 @@
+
+body{
+	font-family:arial, sans-serif;
+	background-color:  #cce6ff;
+	padding: 20px;
+}
+
+.caixa-formulario{
+	width: 400px;
+	margin: 0 auto;
+	
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	padding: 25px;
+}
+h1{
+	text-align:center;
+	color: #9cf;
+}
+
+p{
+	text-align: center ;
+	color: #6cf;
+	
+}
+
+label,
+imput,
+textarea,
+button{
+	display: block;
+}
+label{
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+textarea {
+	padding: 8px;
+}
+button{
+	margin-top: 20px;
+	padding: 10px;
+}
