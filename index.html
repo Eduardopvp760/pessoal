@@ -1,79 +1,126 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <título> Eduardo-Formulario <título>
-
-     <style> 
-		
-body{
-	font-family:arial, sans-serif;
-	background-color:  #cce6ff;
-	padding: 20px;
+<head>
+    <title>Pagina Pessoal Eduardo Scussiatto </title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.caixa-formulario{
-	width: 400px;
-	margin: 0 auto;
-	
-	background-color: #ffffff;
-	border: 1px solid #cccccc;
-	padding: 25px;
-}
-h1{
-	text-align:center;
-	color: #9cf;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
 }
 
-p{
-	text-align: center ;
-	color: #6cf;
-	
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
 }
 
-label,
-imput,
-textarea,
-button{
-	display: block;
-}
-label{
-	margin-top: 15px;
-	margin-bottom: 5px;
-	font-weight: bold;
-}
-textarea {
-	padding: 8px;
-}
-button{
-	margin-top: 20px;
-	padding: 10px;
-}
-	 </style>
-    </head>
-    <body>
-        <body>
 
-   <div class="caixa-formulario">
-   
-      <h1 style="color: #0000ff;">Formulário</h1>
-	 <p style="color: #66B2FF;">Deixe aqui a sua dúvida</p
-	  <FORM>
-	 <label for="nome-usuario" style="color: #3385dd;">1. Nome :</label>
-	  <input type="text" id="nome-usuario" placeholder="digite seu nome aqui " >
-	  
-	  
-	<label for="email" style="color: #3385dd;">2. Email :</label>
-	  <input type="text" id="email" placeholder="digite seu email aqui " >
-	  
-	  
-	 <label for="msg-usuario" style="color: #3385dd;">3. Mensagem:</label>
-	  <textarea id="msg-usuario"></textarea> 
-	  
-	   <button type="submit" style="background-color: #3399FF; color: white; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer;">
-  Enviar
-	   
-	   
-	   </form>
-	     </div>
-    </body>
+header h1 {
+    margin-bottom: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+} 
+
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+section {
+    margin: 20px 0;
+}
+section#sobre, 
+section#projetos, 
+section#contato {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>Eduardo Scussiatto </h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou Aluno da Escola CAIC assumirei o posto/cargo de vereador mirim na intutuição educacional  Escola de Educação Basica Municipal Criança do Futuro - CAIC no ano de 2026 por votação publica.Gosto de compartilhar ou conhecer 
+
+			jogos  e videos zueiros e sempre busco 
+
+          conhecimento e criar projetos que ajudam as pessoas a aprender e crescer.</p>
+    </section>
+
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+		<h3>Como ainda não assumi o cargo de vereador mirim não tenho projetos pendentes,mas pretendo realizar varios projetos durante meu cargo como um bom vereador mirim.</h3>
+        <ul>
+            <li>Projeto 1: <a href="#">indefinido  </a></li>
+            <li>Projeto 2: <a href="#">indefinido  </a></li>
+            <li>Projeto 3: <a href="#">indefinido </a></li>
+              <li>Projeto 2: <a href="#">indefinido </a></li>
+            <li>Projeto 3: <a href="#">indefinido </a></li>
+                        <li>Projeto 3: <a href="#">indefinido </a></li>
+              <li>Projeto 2: <a href="#">indefinido </a></li>
+            <li>Projeto 3: <a href="#">indefinido </a></li>
+        </ul>
+    </section>
+
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo via <a href="mailto:e-mail@gmail.com">eduardoscussiatto@gmail.com</a>.</p>
+		<p>Ou via whatzaap pelo numero <a href="https://wa.me/55 (49) 99134-9882">55 (49) 99134-9882</a>
+
+    </section>
+
+
+    <footer>
+        <p>&copy; @2025 - Eduardo Scussiatto</p>
+    </footer>
+</body>
 </html>
+
+
